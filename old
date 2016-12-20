@@ -6,4 +6,5 @@ rm -rf vendor/bundle;
 rm -rf build
 rm -rf source/assets/images/files
 bundle install --path ~/.gems
+bundle exec middleman sd
 bundle exec middleman deploy --build-before;
